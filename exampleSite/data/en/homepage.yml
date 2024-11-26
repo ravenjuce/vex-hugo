@@ -1,72 +1,65 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Believe in Technology, Make the change"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "images/watch.png"
+  title: "Say Goodbye to Eczema with Gaks Goop!"
+  content: "Gaks Goop is a natural, organic, and gentle skincare product crafted to relieve eczema and skin irritation. Discover healthy, comfortable skin with the power of natural ingredients, made with love, hope, and care."
+  image: "images/banner_img.jpg"
   button:
     enable: true
     label: "Browse All Products"
     link: "products/"
 
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/promo_img.jpg"
+  title: "Experience the Relief You Deserve"
+  content:
+    "Launching on [Launch Date], Gaks Goop is here to finally help you say goodbye to dry, itchy, and irritated skin. Formulated with a unique blend of natural ingredients—like coconut oil, beeswax, and lavender—our gentle, effective formula is perfect for all ages, even infants and children. Gaks Goop is more than just skincare; it’s a solution for healthier, happier skin, filled with love, hope, and a commitment to comfort."
+
 ############################# Feature ############################
 features:
   enable: true
-  title: "Our Core Features"
-  image: "images/watch-2.png"
+  title: "Why Choose Gaks Goop?"
+  image: "images/feature_img.png"
 
   # feature at the left of the image
   left_side:
     # feature item loop
     - title: "Smooth Touch"
-      icon: "tf-ion-ios-alarm-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
       # feature item loop
     - title: "Elegant Design"
-      icon: "tf-ion-ios-bell-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
       # feature item loop
     - title: "Easy Pricing"
-      icon: "tf-ion-ios-cart-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
   # feature at the right of the image
   right_side:
     # feature item loop
     - title: "Smooth Touch"
-      icon: "tf-ion-ios-alarm-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
       # feature item loop
     - title: "Elegant Design"
-      icon: "tf-ion-ios-bell-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
       # feature item loop
     - title: "Easy Pricing"
-      icon: "tf-ion-ios-cart-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
-############################# promo ############################
-promo:
-  enable: true
-  image: "images/watch.png"
-  title: "Designed by professional , the benefit for creative gigs"
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-    nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-    <br><br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
 
 ############################# About Product #######################
 about_product:
   enable: true
-  title: "Why Choose Apple Watch"
+  title: "Why Choose Gaks Goop"
   items:
     # about product item loop
-    - image: "images/showcase/showcase-4.png"
+    - image: "images/about_img1.jpg"
       title: "Lorem ipsum dolor sit amet."
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
@@ -78,7 +71,7 @@ about_product:
         link: "#/"
 
     # about product item loop
-    - image: "images/showcase/showcase-3.png"
+    - image: "images/about_img2.jpg"
       title: "Lorem ipsum dolor sit amet."
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
@@ -88,39 +81,24 @@ about_product:
         enable: false
         label: "Check Features"
         link: "#/"
-
-#################################### Products ########################
-products:
-  enable: true
-  title: "Checkout Our All Products"
-
-################################## Subscription ###################
-subscription:
-  enable: true
-  bg_image: "images/call-to-action.jpg"
-  title: "Get Product Updates"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-  placeholder: "Your Email Address Here"
 
 ############################## Testimonial ##########################
 testimonial:
   enable: true
-  title: "Watch Review"
+  title: "What Our Happy Customers Are Saying"
   testimonial_item:
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
-      image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name: "Sarah L."
+      content: "I've tried countless creams for my eczema, but nothing works like Gaks Goop. It’s a lifesaver!"
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
-      image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name: "Michael T."
+      content: "Within a week of using Gaks Goop, my skin felt smoother and less irritated. I’m hooked!"
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
-      image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name: "Jennifer R."
+      content: "I love that it’s natural and safe for my baby’s sensitive skin. Gaks Goop is a must-have!"
+
+    # testimonial item loop
+    - name: "Jason K."
+      content: "Finally, a product that works! My eczema flare-ups are so much better thanks to Gaks Goop."

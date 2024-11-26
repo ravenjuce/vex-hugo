@@ -11,14 +11,14 @@
         </div>
       </div>
       {{ range .testimonial_item }}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center t_under">
         <div class="testimonial-block">
           <i class="tf-ion-quote"></i>
           <p>{{ .content | markdownify }}</p>
           <div class="author-details">
-            <img src="{{ .image | absURL }}" alt="{{ .name }}">
+            
             <h4>{{ .name }}</h4>
-            <span>{{ .designation }}</span>
+            <!-- <span>{{ .designation }}</span> -->
           </div>
         </div>
       </div>
