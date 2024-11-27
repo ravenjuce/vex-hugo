@@ -4,10 +4,6 @@ banner:
   title: "Say Goodbye to Eczema with Gaks Goop!"
   content: "Gaks Goop is a natural, organic, and gentle skincare product crafted to relieve eczema and skin irritation. Discover healthy, comfortable skin with the power of natural ingredients, made with love, hope, and care."
   image: "images/banner_img.jpg"
-  button:
-    enable: true
-    label: "Browse All Products"
-    link: "products/"
 
 ############################# promo ############################
 promo:
